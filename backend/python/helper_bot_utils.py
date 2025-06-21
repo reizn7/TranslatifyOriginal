@@ -7,7 +7,7 @@ credentials, project = google.auth.default()
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAyQcDivAKpHJog5NEZqC1NsBjDVGotXss")
+genai.configure(api_key="")
 
 def synthesize_speech_to_memory(text, language_code="en-US", voice_name=None):
     """Converts text to speech and returns WAV audio content in memory."""
