@@ -1,13 +1,27 @@
-📝 Translatify – Real-Time Voice Translation for Google Meet
-Translatify is a real-time voice translation system built to bridge language barriers during virtual meetings. Designed for platforms like Google Meet, it captures live audio, transcribes speech, translates it into the target language, and plays it back — all in real time.
+🌍 Translatify – Real-Time Voice Translation for Google Meet
 
-The project enables global collaboration across language boundaries, making it easier for users to communicate, understand, and participate in meetings without the need for a common spoken language.
+Translatify is a real-time voice translation system designed to break down language barriers in virtual meetings. Built for platforms like Google Meet, it:
+
+🎤 Captures live audio from ongoing meetings
+
+✍️ Transcribes speech into text
+
+🌐 Translates it into the chosen target language
+
+🔊 Speaks back the translation — instantly
+
+This enables seamless collaboration across different languages, ensuring participants can communicate, understand, and engage without relying on a shared spoken language.
+
+
 
 🔧 Tech Stack
-Frontend: React (Vite), Tailwind CSS
 
-Backend: Node.js, Express
+Frontend: React (Vite) + Tailwind CSS
+
+Backend: Node.js + Express
 
 Speech Processing: Python (SpeechRecognition, Google Translate API, gTTS)
 
-Audio Handling: Web Audio API, VB-Cable, Sounddevice
+Audio Handling: Web Audio API, VB-Audio Virtual Cable, Sounddevice
+
+⚡ With Translatify, virtual meetings become truly global — breaking the barrier of language in real time.
